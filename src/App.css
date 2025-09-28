@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(197, 192, 192);
+}
+
+.app {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  padding: 8px;
+  width: 250px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.category-box {
+  border: 1px solid #ddd;
+  background: white;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 6px;
+  width: 90%;
+  max-width: 800px;
+  text-align: left;
+}
+
+.add-btn {
+  background-color: rgb(197, 192, 192);
+  color: black;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #a5a7aa;
+}
+
+.widgets {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.widget-box {
+  border: 1px solid #aaa;
+  padding: 10px;
+  border-radius: 5px;
+  background: #fafafa;
+  position: relative;
+  width: 180px;
+}
+
+.widget-box strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.remove-btn {
+  background: rgb(197, 192, 192);
+  color: white;
+  border: none;
+  padding: 2px 6px;
+  border-radius: 50%;
+  font-size: 12px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
